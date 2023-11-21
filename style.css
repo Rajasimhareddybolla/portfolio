@@ -1,0 +1,64 @@
+*{
+  font-family: serif;
+
+}
+body{
+  background-color:hsla(35.67567567567568,86.85446009389672%,58.23529411764705%,1) ;
+
+}
+.name{
+  font-family: "Audiowide", sans-serif;
+  color: azure;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+.section{
+  width: 30%;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+#name{
+  display: flex;
+  justify-content: flex-end ;
+  align-items: flex-end;
+  height: 41px;
+  size: 30px;
+  width: 50px;
+  text-align: center;
+}
+.icons{
+  display: flex row;
+  flex-direction: row;
+  margin-top: 25px;
+  margin-left: 10px;
+}
+
+
+.intro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.introo{
+  display: flex;
+}
+.blue>a{
+  margin-top: 50px;
+  color: azure;
+  display: block;
+  flex-wrap: wrap;
+  height: auto;
+  font-size: 40px;
+  text-align: center;
+}
+.blue>h3{
+  font-size: 30px;
+  color: aqua;
+  text-align:end;
+}
