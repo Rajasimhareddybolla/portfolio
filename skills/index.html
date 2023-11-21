@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body style="background-color: aliceblue;">
+  <h1>Education  </h1>
+      <div style="display: inline;">
+        <img src="schoo.jpeg" alt="my school pic" height="200px">
+        <h3 style="display: inline ;">THis my school days where my most of the golden ages are happened anantapurm </h3>
+        <img src="school.jpeg" alt="my school" height="200px">
+</div>
+  <h1>next two years i spent my life vijayawada and then in bengaluru</h1>
+  <br><br>
+  <h1>SKILLS</h1>
+  <form id="forms">
+    <button value="show" id="show">show</button>
+  </form>
+  <img src="Qubit by Qubit Certificate (2).pdf" alt="ibm Certificate" id ="Certificate" style="display: none;">
+  <h1>which was given by  <a href="">IBM</a>  at the time of pandamic the sign of my consistency for whole YEAR</h1>
+  <h3> i am good at programing in </h3>
+  <ol>
+    <li>C </li>
+    <li>JAVA</li>
+    <li>python</li>
+    <li>QUantum computing </li>
+    <li>introductory knowledge on  HTML , CSS , JAVA SCRIPT , SQL</li>
+  </ol>
+  <h1>Hear i am going to link my projects(clones of web pages) which helped me to get some knowledge about html,css </h1>
+  <a href="/netfli/index.html" style="font-size: medium;">netflix <br></a>
+  <a href="/amazon/index.html" style="font-size: medium;">amazon</a>
+  <script>
+    document.getElementById("forms").addEventListener("submit",function(event){
+      event.preventDefault();
+      if(document.getElementById("show").value=="show"){
+        document.getElementById("Certificate").style.display="inline";
+      }
+    });
+  </script>
+</body>
+</html>
