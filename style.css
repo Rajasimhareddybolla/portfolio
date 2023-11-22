@@ -62,3 +62,11 @@ body{
   color: aqua;
   text-align:end;
 }
+@media only screen and (max-width: 1000px) {
+  .pic{
+    display: none;
+  }
+  .text{
+    width:max-content;
+  }
+}
